@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+  <img class="principalImg" src="imgDesktop.svg" alt="Ilustrative Image">
+  <nav class="section1">
+    <div class="mainText">
+      <h1>Stay updated!</h1>
+
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+      <ul id="ulId">
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more!</li>
+      </ul>
+
+      <p class="emailAddress">Email address</p>
+      <p class="invalid">Invalid Email</p>
+      <input id="inputEmail" type="email" size="20" placeholder="email@company.com" />
+      <button class="button1" type="submit">Subscribe to monthly newsletter</button>
+    </div>
+    <img class="imgCenter" src="imgDesktop.svg" alt="Ilustrative Image">
+  </nav>
+  <section class="hide">
+    <h2>Thanks for subscribing !</h2>
+    <p>A confirmation e-mail has been sent to <span id="emailSpan"></span> . Please open it and click the
+      button inside to confirm your
+      subscription.</p>
+    <button class="button2" type="submit">Dismiss Message</button>
+  </section>
+  <!--<footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Guilherme Monteiro</a>.
+  </footer> -->
+</body>
+<script src="script.js"></script>
+
+</html>
